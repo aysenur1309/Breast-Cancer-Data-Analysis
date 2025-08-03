@@ -74,4 +74,5 @@ confusion_matrix ve roc_curve ile model performansı ölçüldü.
 Anaconda veya Jupyter Notebook ortamında Python 3 ile çalıştırabilirsiniz.
 Gerekli kütüphaneler yüklü değilse:
 
- ```bash pip install pandas seaborn scikit-learn matplotlib 
+ ```bash
+pip install pandas seaborn scikit-learn matplotlib 
