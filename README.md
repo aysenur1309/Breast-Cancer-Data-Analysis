@@ -1,7 +1,7 @@
 # Breast-Cancer-Dataset-Analysis
-Bu proje, Scikit-learn kütüphanesinde yer alan "Breast Cancer Wisconsin (Diagnostic)" veri seti kullanılarak gerçekleştirilmiş keşifsel veri analizi (EDA), görselleştirme, veri ön işleme ve lojistik regresyon modeli ile meme kanseri teşhis sınıflandırması uygulamasını içermektedir.  •  
+Bu proje, **Scikit-learn** kütüphanesinde yer alan **"Breast Cancer Wisconsin (Diagnostic)"** veri seti kullanılarak gerçekleştirilmiş **keşifsel veri analizi (EDA)**, görselleştirme, veri ön işleme ve **lojistik regresyon** modeli ile **meme kanseri teşhis sınıflandırması** uygulamasını içermektedir.  •  
 
-# İçerik 
+# Proje İçeriği 
  ✅ Veri Setinin Yüklenmesi ve İlk İnceleme
 
  ✅ Özellik (Feature) İsimlerinin Türkçeleştirilmesi
@@ -28,22 +28,23 @@ Bu proje, Scikit-learn kütüphanesinde yer alan "Breast Cancer Wisconsin (Diagn
 
 
 #  📊 Görselleştirme Örnekleri
-## Sınıf Dağılımı
+
+### Sınıf Dağılımı
 Bar grafiği ve pasta grafiği ile "iyi huylu" ve "kötü huylu" tümör sayıları görselleştirildi.
 
-## Korelasyon Analizi
+### Korelasyon Analizi
 Scatter plotlar ile pozitif ve negatif ilişkiler gösterildi.
 Isı haritası (heatmap) ile tüm özellikler arası korelasyon incelendi.
 
 
 #  Modelleme Süreci
-## 1. Etiket Dönüştürme
+### 1. Etiket Dönüştürme
 LabelEncoder ile tani sütunu 0 ve 1 olacak şekilde dönüştürüldü.
 
-## 2. Ölçeklendirme
+### 2. Ölçeklendirme
 Tüm veriler MinMaxScaler ile 0-1 aralığına ölçeklendirildi.
 
-## 3. Lojistik Regresyon
+### 3. Lojistik Regresyon
 Veri %80 eğitim, %20 test olarak ayrıldı.
 LogisticRegression modeli ile sınıflandırma gerçekleştirildi.
 confusion_matrix ve roc_curve ile model performansı ölçüldü.
@@ -57,11 +58,11 @@ AUC Skoru: %90+ başarı oranı (örnek çıktılara bağlıdır)
 
 
 # Kullanılan Kütüphaneler
-• pandas
-• numpy
-• seaborn
-• matplotlib
-• scikit-learn (datasets, model_selection, preprocessing, metrics, linear_model)
+• **pandas**
+• **numpy**
+• **seaborn**
+• **matplotlib**
+• **scikit-learn** (datasets, model_selection, preprocessing, metrics, linear_model)
 
 
 # 🛠️ Projeyi Çalıştırmak İçin
