@@ -65,13 +65,13 @@ confusion_matrix ve roc_curve ile model performansı ölçüldü.
 -  **scikit-learn** (datasets, model_selection, preprocessing, metrics, linear_model)
 
 
+## 📚 Kaynak
+
+**Breast Cancer Wisconsin Diagnostic Data Set**
+
+
 ## 🛠️ Projeyi Çalıştırmak İçin
 Anaconda veya Jupyter Notebook ortamında Python 3 ile çalıştırabilirsiniz.
 Gerekli kütüphaneler yüklü değilse:
 
- ```bash pip install pandas seaborn scikit-learn matplotlib ```
-
-
-## 📚 Kaynak
-
-**Breast Cancer Wisconsin Diagnostic Data Set**
+ ```bash pip install pandas seaborn scikit-learn matplotlib 
